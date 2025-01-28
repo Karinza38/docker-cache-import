@@ -23,7 +23,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:1.10.0, @actions/core@npm:^1.10.0, @actions/core@npm:^1.2.6":
+"@actions/core@npm:1.11.1":
+  version: 1.11.1
+  resolution: "@actions/core@npm:1.11.1"
+  dependencies:
+    "@actions/exec": ^1.1.1
+    "@actions/http-client": ^2.0.1
+  checksum: 9ac7a3e0b478bfefd862dcb4ddaa1d8c3f9076bb1931d3d280918d1749e7783480c6a009c1b009c8bf5093e2d77d9f4e023d70416145bf246f0071736d4ef839
+  languageName: node
+  linkType: hard
+
+"@actions/core@npm:^1.10.0, @actions/core@npm:^1.2.6":
   version: 1.10.0
   resolution: "@actions/core@npm:1.10.0"
   dependencies:
@@ -33,7 +43,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/exec@npm:^1.0.1":
+"@actions/exec@npm:^1.0.1, @actions/exec@npm:^1.1.1":
   version: 1.1.1
   resolution: "@actions/exec@npm:1.1.1"
   dependencies:
@@ -2437,7 +2447,7 @@ __metadata:
   resolution: "docker-cache@workspace:."
   dependencies:
     "@actions/cache": 3.2.1
-    "@actions/core": 1.10.0
+    "@actions/core": 1.11.1
     "@fast-check/jest": 1.6.0
     "@jest/globals": 29.5.0
     "@jest/types": 29.5.0
@@ -2965,7 +2975,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -4985,7 +4995,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5556,11 +5566,11 @@ __metadata:
 
 "typescript@patch:typescript@4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
